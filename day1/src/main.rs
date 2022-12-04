@@ -1,5 +1,3 @@
-use color_eyre::eyre::Context;
-
 fn main() -> color_eyre::Result<()> {
     color_eyre::install()?;
     for group in include_str!("input.txt")
